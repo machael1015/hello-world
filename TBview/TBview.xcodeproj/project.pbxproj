@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340ABF2B1CC52AF70025A891 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340ABF291CC52AF70025A891 /* MyViewController.m */; };
+		340ABF2C1CC52AF70025A891 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340ABF2A1CC52AF70025A891 /* MyViewController.xib */; };
 		3499577C1CB6531400E1CEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499577B1CB6531400E1CEE6 /* main.m */; };
 		3499577F1CB6531400E1CEE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499577E1CB6531400E1CEE6 /* AppDelegate.m */; };
 		349957821CB6531400E1CEE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349957811CB6531400E1CEE6 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340ABF281CC52AF70025A891 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		340ABF291CC52AF70025A891 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		340ABF2A1CC52AF70025A891 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 		349957771CB6531400E1CEE6 /* TBview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3499577B1CB6531400E1CEE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3499577D1CB6531400E1CEE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +67,9 @@
 				3499577E1CB6531400E1CEE6 /* AppDelegate.m */,
 				349957801CB6531400E1CEE6 /* ViewController.h */,
 				349957811CB6531400E1CEE6 /* ViewController.m */,
+				340ABF281CC52AF70025A891 /* MyViewController.h */,
+				340ABF291CC52AF70025A891 /* MyViewController.m */,
+				340ABF2A1CC52AF70025A891 /* MyViewController.xib */,
 				349957831CB6531400E1CEE6 /* Main.storyboard */,
 				349957861CB6531400E1CEE6 /* Assets.xcassets */,
 				349957881CB6531400E1CEE6 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			files = (
 				3499578A1CB6531400E1CEE6 /* LaunchScreen.storyboard in Resources */,
 				349957871CB6531400E1CEE6 /* Assets.xcassets in Resources */,
+				340ABF2C1CC52AF70025A891 /* MyViewController.xib in Resources */,
 				349957851CB6531400E1CEE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			files = (
 				349957821CB6531400E1CEE6 /* ViewController.m in Sources */,
 				3499577F1CB6531400E1CEE6 /* AppDelegate.m in Sources */,
+				340ABF2B1CC52AF70025A891 /* MyViewController.m in Sources */,
 				3499577C1CB6531400E1CEE6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +310,7 @@
 				349957901CB6531400E1CEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

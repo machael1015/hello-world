@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyViewController.h"
 
 #define kScrollViewWidth self.view.frame.size.width;
 #define kScrollViewHeight self.view.frame.size.height;
@@ -18,6 +19,9 @@
 @end
 
 @implementation ViewController
+
+
+
 
 
 
